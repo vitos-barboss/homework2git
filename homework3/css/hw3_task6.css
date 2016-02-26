@@ -1,0 +1,81 @@
+label {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+input[type="checkbox"] {
+
+    visibility: hidden;
+}
+
+label[for="red"] {
+
+    color: red;
+
+}
+
+label[for="green"] {
+
+    color: green;
+
+}
+
+label[for="blue"] {
+
+    color: blue;
+
+}
+
+.red {
+
+    background: red;
+
+}
+
+.green {
+
+    background: green;
+
+}
+
+.blue {
+
+    background: blue;
+
+}
+
+.red,
+.green,
+.blue {
+
+    width: 80px;
+    height: 25px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+#red:checked ~ label[for="red"],
+#green:checked ~ label[for="green"],
+#blue:checked ~ label[for="blue"] {
+
+    opacity: 0.3;
+
+}
+
+#red:checked ~ .red,
+#green:checked ~ .green,
+#blue:checked ~ .blue {
+
+    display: none;
+
+}
+
+
+
+
+
+

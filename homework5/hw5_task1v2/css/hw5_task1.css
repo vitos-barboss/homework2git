@@ -1,0 +1,159 @@
+.travelsContent,
+.sportContent {
+
+    display: none;
+    padding: 0 20px;
+
+}
+
+.parentTravels:hover .travelsContent {
+
+    display: block;
+    position: absolute;
+    right: 12%;
+}
+
+.parentSport:hover .sportContent {
+
+    display: block;
+    position: absolute;
+    right: 40%;
+}
+
+.menu {
+
+    background-color: #1aa4ff;
+    -border: 1px solid black;
+    height: 37px;
+    display: flex;
+
+}
+
+.leftMenu {
+
+    -border: 1px solid red;
+    width: 860px;
+    float: left;
+    margin: auto;
+
+}
+
+.rightMenu {
+
+    float: right;
+    margin: auto;
+    
+}
+
+.leftMenu > li {
+
+    display: inline-block;
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: Impact, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 6px 15px;
+    line-height: 24px;
+    
+}
+
+.rightMenu  li {
+
+    list-style: none;
+    -border: 1px solid yellow;
+    
+}
+
+.rightMenu  li a {
+
+    display: inline-block;
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: Impact, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 6px 15px;
+    line-height: 24px;
+    
+}
+
+.rightMenu  li a:hover {
+
+    display: inline-block;
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: Impact, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #a09e9f;
+    background-color: lightgray;
+    padding: 6px 15px;
+    line-height: 24px;
+    
+}
+
+.leftMenu > li:hover {
+
+    display: inline-block;
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: Impact, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #a09e9f;
+    padding: 6px 15px;
+    background-color: lightgray;
+    line-height: 24px;
+
+}
+
+.travelsContent  li,
+.sportContent  li {
+
+    display: inline-block;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: Impact, sans-serif;
+    text-transform: uppercase;
+    padding: 6px 5px;
+    line-height: 24px;
+
+}
+
+.travelsContent  li a,
+.sportContent  li a {
+
+    text-decoration: none;
+    color: #a09e9f;
+    padding-top: 30px;
+       
+}
+
+.travelsContent,
+.sportContent {
+
+    background-color: lightgray;
+    margin-top: 6px;
+    right: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

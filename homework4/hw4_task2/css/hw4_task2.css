@@ -1,0 +1,65 @@
+.block {
+    height: 36px;
+    background: #a54eff;
+
+    line-height: 29px;
+}
+
+nav {
+
+    width: 900px;
+    margin: auto;
+}
+
+a {
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: Impact, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 6px 15px;
+
+    line-height: 24px;
+
+    margin: auto;
+}
+
+a:hover {
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: Impact, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #a09e9f;
+    background-color: #fafafa;
+    padding: 6px 15px;
+
+    line-height: 24px;
+
+    margin: auto;
+
+}
+
+.leftMenu {
+
+    float: left;
+    -border: 1px solid red;
+
+    display: flex;
+
+    white-space: nowrap;
+    overflow: hidden;
+
+
+}
+
+.rightMenu {
+    float: right;
+    padding-right: 40px;
+
+    display: flex;
+
+    white-space: nowrap;
+    overflow: hidden;
+}

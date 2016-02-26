@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw_2_task3</title>
+
+</head>
+<body>
+
+    <h1>Homework 2 - task 3</h1>
+    <form action="#url" method="get">
+
+        Name<br>
+        <input type="text" name="firstName"><br><br>
+
+        Email<br>
+        <input type="email" name="email"><br><br>
+
+        Sex<br>
+        <input type="radio" name="sex" value="male" checked>Male
+        <input type="radio" name="sex" value="female">Female<br><br>
+
+        Current status<br>
+        <input type="checkbox" name="status1" value="student">Student<br>
+        <input type="checkbox" name="status2" value="employed">Employed<br>
+        <input type="checkbox" name="status3" value="unemployed">Unemployed<br><br>
+        
+        Month and Year of birth<br>
+        <select name="month">
+            <option value="january" selected>January</option>
+            <option value="february">February</option>
+            <option value="march" >March</option>
+            <option value="may">May</option>
+        </select>
+        <select name="year">
+            <option value="y1987">1987</option>
+            <option value="y1988">1988</option>
+            <option value="y1989">1989</option>
+            <option value="y1990" selected>1990</option>
+            <option value="y1990">1991</option>
+        </select>
+        <br><br>
+
+        Skills and Technologies<br>
+        <select name="skillsAndTech" size="10" multiple>
+            <optgroup label="Tech skills">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JavaScript</option>
+                <option value="git">git</option>
+            </optgroup>
+            <optgroup label="Soft skills">
+                <option value="timeManeg">Time management</option>
+                <option value="proactivity">Proactivity</option>
+                <option value="teamwork">Teamwork</option>
+                <option value="leadership">Leadership</option>
+            </optgroup>
+        </select>
+        <br><br>
+        
+        Photo<br>
+        <input type="file"><br><br>
+
+        Comments<br>
+        <textarea name="myText" cols="30" rows="5">
+        </textarea><br><br>
+
+        <button name="subject" type="submit" value="save">Save</button>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+div {
+    text-align: center;
+    background: #a54eff;
+}
+
+nav {
+
+    width: 900px;
+    margin: auto;
+}
+
+nav a {
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: Impact, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+nav a:hover {
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: Impact, sans-serif;
+    color: #a09e9f;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #fafafa;
+    display: inline-block;
+    padding: 0 15px;
+}
