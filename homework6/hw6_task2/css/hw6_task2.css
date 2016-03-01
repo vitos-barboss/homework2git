@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+}
+
+.clientChat {
+
+    width: 1400px;
+    height: 315px;
+    background: url("../task2_img/background2.png");
+    font-family: "Trebuchet MS", sans-serif;
+
+}
+
+.titleClientChat {
+    font-size: 40px;
+    height: 138px;
+    display: flex;
+
+    color: #ee8129;
+    text-transform: uppercase;
+    line-height: 0.45;
+    text-align: center;
+
+}
+
+.titleClientChat p {
+
+    padding-right: 50px;
+    margin: auto;
+
+
+}
+
+.titleClientChat span {
+
+    color: #3170a8;
+    text-transform: uppercase;
+    line-height: 0.45;
+
+}
+
+.leftMessageBlock {
+
+    height: 96px;
+    margin-left: 190px;
+    float: left;
+}
+
+.leftAvatar {
+
+    width: 107px;
+    height: 98px;
+    background: url("../task2_img/avatar1.png");
+    float: left;
+}
+
+.messageWindow {
+
+    width: 317px;
+    height: 96px;
+    float: left;
+    padding: 0 15px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb( 224, 224, 224 );
+    background-color: rgb( 247, 247, 247 );
+    box-shadow: 0.5px 0.866px 2px 0px rgb( 0, 0, 0 );
+
+}
+
+.rightMessageBlock {
+
+    height: 96px;
+    margin-left: 40px;
+    float: left;
+
+}
+
+.rightAvatar {
+
+    width: 107px;
+    height: 98px;
+    background: url("../task2_img/avatar2.png") 45% 26% ;
+    background-size: 100%;
+    float: left;
+
+}
+
+.rightMessageWindow {
+
+    width: 379px;
+    height: 96px;
+    float: left;
+    margin-left: 26px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb( 224, 224, 224 );
+    background-color: rgb( 247, 247, 247 );
+    box-shadow: 0.5px 0.866px 2px 0px rgb( 0, 0, 0 );
+
+}
+
+.arr {
+
+    margin-left: -20px;
+    margin-top: 32px;
+    width: 15px;
+    height: 0px;
+    float: left;
+
+    border: 16px solid;
+    border-color:  transparent #f7f7f7 transparent  transparent ;
+}
+
+.headMessageWindow {
+
+    font-size: 13px;
+    color: rgb( 48, 112, 168 );
+    font-style: italic;
+    line-height: 1.846;
+    padding:  5px 0 2px 0;
+}
+
+.nameAvatar {
+    float: left;
+}
+
+.positionAvatar {
+    float: right;
+}
+
+.clientMessage {
+    margin: 1px;
+    font-size: 13px;
+    color: rgb( 102, 102, 102 );
+    line-height: 1.538;
+    text-align: left;
+
+}
