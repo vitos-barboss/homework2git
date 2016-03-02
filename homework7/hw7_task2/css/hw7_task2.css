@@ -17,11 +17,9 @@ header {
     height: 116px;
     margin: auto;
     display: flex;
-
 }
 
 .logo {
-
     font-family: "MyriadPro", sans-serif;
     font-size: 36px;
     color: #ee8129;
@@ -77,12 +75,12 @@ header {
 
 /* -------------------------------------------------------Section------*/
 
-.section {
+
+.mainPicture {
     width: 100%;
     height: 582px;
     text-align: center;
     background: url("../img/main.png") no-repeat 50% 33%;
-    background-color: rgba( 10, 106, 195, 0.6 );
 
 }
 
@@ -90,7 +88,7 @@ header {
     width: 100%;
     height: 582px;
     text-align: center;
-    background-color: rgba( 10, 106, 195, 0.2 );
+    background-color: rgba( 10, 106, 195, 0.5);
     margin: auto;
 }
 
@@ -133,9 +131,8 @@ header {
 button {
     border-style: solid;
     border-width: 1px;
-    border-color: rgb( 255, 255, 255 );
+    border-color: #ffffff;
     background-color: rgba( 238, 129, 41, 0 );
-    opacity: 0.502;
     width: 250px;
     height: 62px;
     font-size: 16px;
@@ -151,7 +148,6 @@ button:hover {
     border-width: 1px;
     border-color: #ffffff;
     background-color: rgba( 238, 129, 41, 0 );
-    opacity: 0.702;
     width: 250px;
     height: 62px;
     font-size: 16px;
@@ -160,7 +156,8 @@ button:hover {
     text-transform: uppercase;
     text-align: center;
     transform: scale(1.02);
-    transition: 0.2s;
+    transition: 0.005s;
+    box-shadow: 0 0 10px #fff;
 
 }
 
@@ -216,8 +213,8 @@ button:hover {
 
 .frame:hover {
     z-index: 5;
-    transform: scale(1.05);
-    transition: 0.3s;
+    transform: scale(1.03);
+    transition: 0.7s;
 }
 
 .frame2 {
@@ -321,8 +318,6 @@ button:hover {
 
 }
 
-
-
 .priceNumber {
 
     -border: 1px solid blue;
@@ -386,7 +381,7 @@ button:hover {
 
 }
 
-.window  .button {
+.window .button {
 
     border-radius: 5px;
     width: 253px;
@@ -404,17 +399,18 @@ button:hover {
 
 }
 
-.window  .button1 {
-    background-color: #3070a8;
+.button1 {
+    background-color: #3371a6;
     box-shadow: 0px 3px 0px 0px #1e3c56;
 }
 
- .button2 {
+.button2 {
     background-color: #ee8129;
     box-shadow: 0px 3px 0px 0px #B3560B;
 }
 
- .button1:hover {
+
+.button1:hover {
     background-color: #336189;
 }
 
@@ -457,11 +453,8 @@ button:hover {
 }
 
 .titleClientChat p {
-
     padding-right: 50px;
     margin: auto;
-
-
 }
 
 .titleClientChat span {
@@ -473,7 +466,6 @@ button:hover {
 }
 
 .leftMessageBlock {
-
     height: 96px;
     margin-left: 190px;
     float: left;
@@ -488,22 +480,30 @@ button:hover {
 }
 
 .messageWindow {
-
     width: 317px;
     height: 96px;
     float: left;
     padding: 0 15px;
-
+    margin-left: 30px;
     border-style: solid;
     border-width: 1px;
     border-color: rgb( 224, 224, 224 );
     background-color: rgb( 247, 247, 247 );
     box-shadow: 0.5px 0.866px 2px 0px rgb( 0, 0, 0 );
+    position: relative;
 
 }
 
-.rightMessageBlock {
+.messageWindow::before {
+    content: '';
+    position: absolute;
+    left: -40px;
+    top: 27px;
+    border: 20px solid;
+    border-color: transparent white transparent transparent;
+}
 
+.rightMessageBlock {
     height: 96px;
     margin-left: 40px;
     float: left;
@@ -535,18 +535,6 @@ button:hover {
 
 }
 
-.arr {
-
-    margin-left: -20px;
-    margin-top: 32px;
-    width: 15px;
-    height: 0px;
-    float: left;
-
-    border: 16px solid;
-    border-color:  transparent #f7f7f7 transparent  transparent ;
-}
-
 .headMessageWindow {
 
     font-size: 13px;
@@ -554,6 +542,9 @@ button:hover {
     font-style: italic;
     line-height: 1.846;
     padding:  5px 0 2px 0;
+    border-bottom: 2px dotted #9b9fa3;
+    height: 30px;
+
 }
 
 .nameAvatar {
@@ -570,6 +561,7 @@ button:hover {
     color: rgb( 102, 102, 102 );
     line-height: 1.538;
     text-align: left;
+
 
 }
 
