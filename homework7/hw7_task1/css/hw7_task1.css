@@ -1,0 +1,91 @@
+.sivtsev {
+    -border: 1px solid blue;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    color: transparent;
+
+
+
+}
+
+.sight01 {
+
+    font: normal small-caps 90px/25px fantasy;
+    letter-spacing: 79px;
+    text-shadow: 0 0 3.5px rgba(0,0,0,0.7);
+
+}
+
+.sight02 {
+    font: normal small-caps 72px/24px fantasy;
+    letter-spacing: 39px;
+    text-shadow: 0 0 3.5px rgba(0,0,0,0.7);
+}
+
+.sight03 {
+    font: normal small-caps 48px/23px fantasy;
+    letter-spacing: 26px;
+    text-shadow: 0 0 3.8px rgba(0,0,0,0.7);
+
+}
+
+.sight04 {
+    font: normal small-caps 36px/22px fantasy;
+    letter-spacing: 21px;
+    text-shadow: 0 0 3.8px rgba(0,0,0,0.7);
+}
+
+.sight05 {
+    font: normal small-caps 28px/21px fantasy;
+    letter-spacing: 25px;
+    text-shadow: 0 0 4px rgba(0,0,0,0.7);
+
+}
+
+.sight06 {
+    font: normal small-caps 26px/20px fantasy;
+    letter-spacing: 19px;
+    text-shadow: 0 0 4.2px rgba(0,0,0,0.7);
+}
+
+.sight07 {
+    font: normal small-caps 24px/19px fantasy;
+    letter-spacing: 20px;
+    text-shadow: 0 0 4.4px rgba(0,0,0,0.7);
+}
+
+.sight08 {
+    font: normal small-caps 22px/18px fantasy;
+    letter-spacing: 15px;
+    text-shadow: 0 0 4.6px rgba(0,0,0,0.7);
+}
+
+.sight09 {
+    font: normal small-caps 20px/17px fantasy;
+    letter-spacing: 16px;
+    text-shadow: 0 0 4.8px rgba(0,0,0,0.7);
+}
+
+.sight10 {
+    font: normal small-caps 18px/16px fantasy;
+    letter-spacing: 13px;
+    text-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+
+.uline {
+    border-bottom: 1px solid red;
+
+}
+
+.sight15 {
+    font: normal small-caps 16px/15px fantasy;
+    letter-spacing: 13px;
+    text-shadow: 0 0 5.4px rgba(0,0,0,0.7);
+}
+
+.sight20 {
+    font: normal small-caps 14px/14px fantasy;
+    letter-spacing: 13px;
+    text-shadow: 0 0 5.6px rgba(0,0,0,0.7);
+}

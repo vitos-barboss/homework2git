@@ -1,12 +1,9 @@
-* {
-    margin: 0;
-}
 
 .clientChat {
 
     width: 1400px;
     height: 315px;
-    background: url("../task2_img/background2.png");
+    background: url("../img/background2.png");
     font-family: "Trebuchet MS", sans-serif;
 
 }
@@ -50,7 +47,7 @@
 
     width: 107px;
     height: 98px;
-    background: url("../task2_img/avatar1.png");
+    background: url("../img/avatar1.png");
     float: left;
 }
 
@@ -81,7 +78,7 @@
 
     width: 107px;
     height: 98px;
-    background: url("../task2_img/avatar2.png") 45% 26% ;
+    background: url("../img/avatar2.png") 45% 26% ;
     background-size: 100%;
     float: left;
 
