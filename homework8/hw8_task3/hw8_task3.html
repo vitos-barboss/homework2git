@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw8_task3</title>
+    <link rel="stylesheet" href="css/hw8_task3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic,800' rel='stylesheet' type='text/css'>
+
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var mapProp = {
+                center:new google.maps.LatLng(31.5196796,74.3859433),
+                zoom:13,
+                mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+</head>
+<body>
+
+    <header>
+        <div class="headerContainer">
+            <div class="logo">Company <span>Name</span></div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#" class="menu-link_active">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">pricing</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="mainPicture">
+            <div class="sectionMask">
+                <div class="sectionText">
+                    <p class="sectionTextTop">We are specialist in</p>
+                    <h1>Responsive designs, Stationary And wordpress Themes</h1>
+                    <p class="sectionTextBottom">Lorem Ipsum is simply dummy text of the printing and typesetting<br>
+                        industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                </div>
+                <button type="button">button name</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------------Advantage-----------------hw8_task3------------------------------->
+    <section class="advantage">
+        <p class="titleAdvantage">Lorem Ipsum is simply dummy text of the printing</p>
+
+        <div class="advantageGroup">
+            <div class="propertyBlock protectBlock">
+                <div class="oval">
+                    <i class="fa fa-lock"></i>
+                </div>
+                <p>protect</p>
+                <p>100% of customer funds are stored offline in secure cold storage. We offer two­
+                    factor authentication on all accounts, mobile alerts and delayed withdrawals, and
+                    spending and transfer limits.
+                </p>
+            </div>
+            <div class="propertyBlock alertBlock">
+                <div class="oval alertImg">
+                    <i class="fa fa-bolt"></i>
+                </div>
+                <p>alert</p>
+                <p>100% of customer funds are stored offline in secure cold storage. We offer two­
+                    factor authentication on all accounts, mobile alerts and delayed withdrawals, and
+                    spending and transfer limits.
+                </p>
+            </div>
+            <div class="propertyBlock detectBlock">
+                <div class="oval detectImg">
+                    <i class="fa fa-mobile"></i>
+                </div>
+                <p>detect</p>
+                <p>100% of customer funds are stored offline in secure cold storage. We offer two­
+                    factor authentication on all accounts, mobile alerts and delayed withdrawals, and
+                    spending and transfer limits.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------Content Block------------------------------------------------------->
+
+    <section class="contentBlock">
+        <div class="contentBlockMate">
+            <div class="wrapContentBlock">
+                <h3>Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum has been....</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <ul>
+                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text.Lorem Ipsum is simply dummy
+                        text of the printing and typesetting industry.</li>
+                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text.</li>
+                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text.Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------- Window with price ------------hw6_task1--------------------------->
+
+    <section class="window">
+        <h2>We have a very flexible offers for you to choose</h2>
+
+        <div class="group">
+            <div class="frame frame1">
+                <div class="headBlock headBlock1">
+                    <div class="bestValue">standard</div>
+                </div>
+                <div class="iconicGraphics">iconic graphics</div>
+                <div class="price"><span class="priceNumber"><sup>$</sup>10</span><span class="priceMonthly">Monthly</span></div>
+                <ul>
+                    <li>Unmetered Traffic</li>
+                    <li>Unlimited Domain</li>
+                    <li>Unlimited Databases</li>
+                    <li>Unlimited e-Mails</li>
+                </ul>
+                <button class="button button1" type="button">Enroll Today</button>
+            </div>
+
+            <div class="frame frame2">
+                <div class="headBlock headBlock2">
+                    <div class="bestValue">best value</div>
+                </div>
+                <div class="iconicGraphics">iconic graphics</div>
+                <div class="price"><span class="priceNumber"><sup>$</sup>25</span><span class="priceMonthly">Monthly</span></div>
+                <ul>
+                    <li>PHP, PERL, ASP, JSP</li>
+                    <li>SEMI DEDICATED</li>
+                    <li>Staging or Production</li>
+                    <li>Unlimited e-Mails</li>
+                </ul>
+                <button class="button button2" type="button">Enroll Today</button>
+            </div>
+
+            <div class="frame frame3">
+                <div class="headBlock headBlock3">
+                    <div class="bestValue">ultimate</div>
+                </div>
+                <div class="iconicGraphics">iconic graphics</div>
+                <div class="price"><span class="priceNumber"><sup>$</sup>35</span><span class="priceMonthly">Monthly</span></div>
+                <ul>
+                    <li>Semi Dedicated</li>
+                    <li>1TB Storage</li>
+                    <li>Faster Site, Better SEO</li>
+                    <li>Unlimited e-Mails</li>
+                </ul>
+                <button class="button button1" type="button">Enroll Today</button>
+            </div>
+        </div>
+    </section>
+
+<!-- -------------------------------WHAT CLIENTS SAYS------------------------------------------------->
+
+    <section class="clientChat">
+        <div class="titleClientChat">
+            <p>What <span>Client Says</span></p>
+        </div>
+            <div class="messages">
+                <div class="leftMessageBlock">
+                    <div class="leftAvatar"></div>
+
+                    <div class="messageWindow">
+                        <div class="headMessageWindow">
+                            <div class="nameAvatar">- Staciya Trollio</div>
+                            <div class="positionAvatar">Customer</div>
+                        </div>
+                        <p class="clientMessage">Lorem Ipsum is simply dummy text of the printing
+                            and industry. Lorem Ipsum has been the industry.</p>
+                    </div>
+                </div>
+                <div class="rightMessageBlock">
+                    <div class="rightAvatar"></div>
+                    <div class="messageWindow">
+                        <div class="headMessageWindow">
+                            <div class="nameAvatar">- David Soul</div>
+                            <div class="positionAvatar">Customer</div>
+                        </div>
+                        <p class="clientMessage">Lorem Ipsum is simply dummy text of the printing
+                            and industry. Lorem Ipsum has been the industry.</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+ <!---------------------------------------Contacts---------------------------------------------------------->
+
+    <section class="contacts">
+        <div class="address">
+            <table>
+                <tr>
+                    <td><i class="fa fa-map-marker"></i></td>
+                    <td>Iconic Graphics</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>123 Main Street</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>EastWest</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>LHR 54500</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-mobile"></i></td>
+                    <td>012.345.6789</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-envelope"></i></td>
+                    <td>info@iconicgraphics.com</td>
+                </tr>
+                <tr>
+
+                    <td colspan="2">
+                        <div class="social">
+                            <a href="#">
+                                <div class="sociallLink facebookLink">
+                                    <i class="fa fa-facebook"></i>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="sociallLink twitterLink">
+                                    <i class="fa fa-twitter"></i>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="sociallLink linkedinLink">
+                                    <i class="fa fa-linkedin"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </td>
+                    <td></td>
+
+                </tr>
+            </table>
+
+        </div>
+        <div id="googleMap" class="map">
+        </div>
+    </section>
+    <section>
+        <footer>
+            <p>Copyright &copy 2014 Company Name. All rights reserved.</p>
+            <p>Designed by <span>IconicGraphics.com</span></p>
+        </footer>
+    </section>
+
+
+
+
+</body>
+</html>
