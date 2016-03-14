@@ -626,46 +626,33 @@ button:hover {
     text-align: left;
 
 }
-
-/*-------------------------------Contacts------------------------------*/
-
+/*-------------------------------Contacts-----------------*/
 .contacts {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
-    margin: auto;
+    justify-content: flex-end;
+
 }
 
 .address {
+    display: flex;
+    margin-right: 15%;
+
+}
+
+.value li {
     font-size: 16px;
     color: #666667;
+    list-style-type: none;
+    padding: 5px;
+    margin-left: 50px;
     display: flex;
-    align-items: center;
-    padding-left: 20%;
 }
 
 .address i {
     font-size: 22px;
     color: #3070a8;
-}
-
-.address td:nth-last-of-type(2n+1) {
-    display: block;
-    padding: 5px 20px;
-}
-
-.address td:nth-last-of-type(2n) {
-    text-align: right;
-}
-
-.map {
-    height: 300px;
-    width: 700px;
-}
-
-.social {
-    display: flex;
     text-align: left;
+    width: 50px;
 }
 
 .sociallLink {
@@ -674,6 +661,12 @@ button:hover {
     border-radius: 50%;
     display: flex;
     margin: 20px  15px 0 0;
+}
+
+.social {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 
 }
 
@@ -685,6 +678,7 @@ button:hover {
 .sociallLink i {
     font-size: 20px;
     color: #FFFFFF;
+    text-align: center;
     margin: auto;
 }
 
@@ -702,6 +696,11 @@ button:hover {
 
 .linkedinLink {
     background-color: #007ab9;
+}
+
+.map {
+    height: 300px;
+    width: 700px;
 }
 
 /*-------------------------------Footer------------------------------*/
