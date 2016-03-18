@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+
+.advantageGroup {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+}
+
