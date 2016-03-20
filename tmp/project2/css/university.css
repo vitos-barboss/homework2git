@@ -1,0 +1,436 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    min-width: 320px;
+}
+
+.joinUs {
+    background-color: #3498db;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 0 21px;
+}
+
+.joinUs a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    text-transform: uppercase;
+
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nameUniversity {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+    border-bottom: 1px solid #2977AB;
+    padding-bottom: 10px;
+}
+
+.connects {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 152px;
+    text-transform: capitalize;
+}
+
+.connects p {
+    padding-right: 5px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.socLink {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #3498db;
+    text-align: center;
+    margin: auto;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*------------------------------mainSection-------------*/
+
+.mainSection {
+    background: url("../img/main.jpg") center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 350px;
+}
+
+.opacityLayout {
+    background: rgba(66, 167, 255, 0.65);
+    max-height: 350px;
+}
+
+.mainText {
+    max-width: 250px;
+    margin: 0 auto;
+    padding-top: 29px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.opacityLayout h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.opacityLayout p {
+    padding-top: 23px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+/*------------------------------history-------------*/
+
+.history {
+    background: #f2f2f2;
+    width: 100%;
+    min-height: 680px;
+    color: #333333;
+}
+
+.history h2 {
+    font-size: 15px;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 445px 0 10px;
+}
+
+.history p {
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+
+}
+
+.alignSignUpMenu {
+
+    display: flex;
+    justify-content: center;
+}
+
+.signUpMenu {
+    width: 301px;
+    height: 543px;
+    background: #ffffff;
+    border-bottom: 5px solid #2977AB;
+    margin-top: 36px;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpMenu h2 {
+    font-size: 20px;
+    color: #333333;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 34px 0 21px;
+}
+
+.formsSignUpMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.selectToggle,
+.formsSignUpMenu input {
+    width: 260px;
+    height: 36px;
+    background: #f2f2f2;
+    border: 1px solid #e6e6e6;
+    margin-top: 9px;
+    font-size: 15px;
+    padding-left: 9px;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.selectToggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selectToggle .downArrow {
+    padding-top: 25px;
+    transform: rotate(90deg);
+}
+
+.formsSignUpMenu input[placeholder="Adress"] {
+    height: 78px;
+    border: 1px solid transparent;
+    background: none;
+}
+
+.formsSignUpMenu input:last-of-type {
+    background: #e74c3c;
+    width: 201px;
+    height: 51px;
+    font-size: 20px;
+    color: #ffffff;
+    margin: auto;
+    margin-top: 26px;
+}
+
+.formsSignUpMenu input::-webkit-input-placeholder {
+    color: #333333;
+}
+
+/*--------------------weAreBest-----------------------*/
+
+.weAreBest {
+
+    text-align: center;
+    padding-top: 33px;
+}
+
+.weAreBestContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+h2 {
+    color: #3498db;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-bottom: 33px;
+}
+
+.imgWeAreBest {
+    width: 290px;
+    height: 159px;
+    margin: 0 auto;
+}
+
+.imgQualityEnvironment {
+    background: url("../img/quality_environment.jpg") center center;
+}
+
+.imgQualityPrograms {
+    background: url("../img/quality_programs.jpg") center center;
+}
+
+.imgExcellentTeachers {
+    background: url("../img/excellent_teachers.jpg") center center;
+}
+
+.history_text_wrapper,
+.weAreBest_text_wrapper,
+.reviews_text_wrapper {
+    text-align: center;
+    color: #333333;
+    width: 291px;
+    margin: 0 auto;
+}
+
+.weAreBestContainer h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 26px 0;
+}
+
+.weAreBestContainer p {
+    font-size: 13px;
+    margin: 0 auto;
+    padding-bottom: 26px;
+}
+
+.viewLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid #e9e9e9;
+    background: transparent;
+
+    font-size: 13px;
+    color: #333333;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*--------------------------------reviews--------------------*/
+
+.reviews {
+    padding-top: 44px;
+    margin: 0 auto;
+    border-top: 1px solid #f2f2f2;
+    height: 438px;
+    width: 100%;
+}
+
+.arrowWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.arrow {
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    border: 2px solid #ebebeb;
+    background: transparent;
+    color: #888888;
+    font-weight: bold;
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow_active {
+    background: #f2f2f2;
+    color: #333333;
+    font-weight: bold;
+}
+
+.reviews_text_wrapper h2 {
+    padding-bottom: 21px;
+}
+
+.reviews_text_wrapper p {
+    font-size: 13px;
+    color: #333333;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.quote {
+    font-size: 50px;
+    font-weight: bold;
+    color: #f2f2f2;
+    line-height: 0.6;
+}
+
+.topQuote {
+    text-align: left;
+}
+
+.bottomQuote {
+    text-align: right;
+}
+
+.memberName {
+    font-size: 13px;
+    font-weight: bold;
+    color: #333333;
+    text-align: right;
+}
+
+.getStarted {
+    height: 242px;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+
+}
+
+.getStartedBox {
+    width: 301px;
+    height: 131px;
+    background: #e74c3c;
+    margin: auto;
+}
+
+.getStartedBox p {
+    color: #ffffff;
+    font-size: 20px;
+    width: 190px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0 11px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.getStartedArrow {
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    border: 2px solid #ebebeb;
+    background: transparent;
+    color: #ffffff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.maleWrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.male {
+    background: url("../img/male.png");
+    width: 225px;
+    height: 364px;
+}
+
+footer {
+    height: 150px;
+
+    background: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 13px;
+    width: 224px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+
+}
