@@ -1,0 +1,63 @@
+@media screen and (min-width: 1000px) {
+   body {
+       border: 1px solid red;
+   }
+
+   .container {
+        width: 1000px;
+   }
+
+    .history {
+        max-width: 1000px;
+    }
+
+    .weAreBestContainer {
+        width: 1000px;
+
+    }
+
+    .weAreBestContainerDesktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .weAreBest_text_wrapper {
+        text-align: center;
+        width: 332px;
+    }
+
+    .qualityEnvironment,
+    .qualityPrograms,
+    .excellentTeachers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .viewLink {
+        margin: 0 auto;
+    }
+
+    .reviews_text_wrapper {
+        width: 1000px;
+    }
+
+    .weAreBestContainer h3 {
+        padding: 27px 0;
+    }
+
+    .weAreBestContainer p {
+        height: 120px;
+        width: 300px;
+        margin: 0;
+    }
+
+    .getStartedContainer {
+        width: 1000px;
+    }
+
+
+
+
+
+}
