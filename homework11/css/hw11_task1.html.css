@@ -1,0 +1,151 @@
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headInfo {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.headInfo h3 {
+    font-size: 40px;
+    color: #2d3950;
+    margin-bottom: 5px;
+
+}
+
+.headInfo p {
+    font-size: 15px;
+    color: #909090;
+    margin-bottom: 65px;
+}
+
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.scale {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+
+
+.photo1,
+.photo2,
+.photo3,
+.photo4,
+.photo5,
+.photo6 {
+    width: 360px;
+    height: 260px;
+    margin: 15px;
+    position: relative;
+}
+
+.cover {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    background-color: rgb( 10, 106, 200);
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-timing-function: ease;
+
+}
+
+.cover:hover {
+    opacity: 0.9;
+}
+
+.zoom,
+.link {
+    width: 42px;
+    height: 42px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background-color: rgb( 10, 106, 200);
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.zoom,
+.link i {
+    font-size: 18px;
+    color: #fff;
+}
+
+.scalePhoto {
+    background: url("../img/bike.jpg") no-repeat;
+    background-size: cover;
+    border: 1px solid #8a8285;
+    position: absolute;
+    width: 1200px;
+    height: 580px;
+    left: 0;
+    top: 0;
+
+    display: none;
+}
+
+
+.closeScalePhoto {
+    width: 25px;
+    height: 25px;
+    background: #FF0000;
+    right: 30px;
+    top: -12px;
+    position: absolute;
+}
+
+.closeScalePhoto:hover {
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+.cross {
+    height: 25px;
+    color: #fff;
+    transform: rotate(45deg);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo1 {
+    background: url("../img/bike.jpg") no-repeat ;
+
+}
+
+.photo2 {
+    background: url("../img/girl.jpg") no-repeat;
+}
+
+.photo3 {
+    background: url("../img/cups.jpg") no-repeat ;
+
+}
+
+.photo4 {
+    background: url("../img/wet-cup.jpg") no-repeat;
+}
+
+.photo5 {
+    background: url("../img/bike_on_parking.jpg") no-repeat;
+}
+
+.photo6 {
+    background: url("../img/bike2.jpg") no-repeat;
+}
