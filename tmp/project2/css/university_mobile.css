@@ -49,8 +49,6 @@ body {
     transition: 0.3s;
 }
 
-
-
 .nameUniversity {
     text-transform: uppercase;
     font-size: 20px;
@@ -93,7 +91,6 @@ body {
     background-color: #3498db;
     color: #ffffff;
     box-shadow: 0 0 5px #fff;
-
 }
 
 /*------------------------------mainSection-------------*/
@@ -146,7 +143,6 @@ body {
     text-align: center;
     padding: 20px 0 12px;
     margin: 0;
-
 }
 
 .historyText {
@@ -155,7 +151,6 @@ body {
     margin: 0;
     padding: 7px 0 17px;
     line-height: 2;
-
 }
 
 .history_text_wrapper {
@@ -163,10 +158,6 @@ body {
     color: #333333;
     width: 291px;
     margin: 0 auto;
-}
-
-.alignSignUpMenu {
-
 }
 
 .signUpMenu {
@@ -270,7 +261,6 @@ h2 {
     font-weight: normal;
     text-transform: uppercase;
     margin: 0 auto;
-
 }
 
 .imgWeAreBest {
@@ -294,7 +284,6 @@ h2 {
 .qualityEnvironment,
 .qualityPrograms,
 .excellentTeachers{
-
     padding-top: 40px;
 }
 
@@ -351,17 +340,12 @@ h2 {
     background-color: #ffffff;
     position: relative;
     min-height: 756px;
-
-
-
 }
 
 .reviewContainer {
     width: 320px;
     margin: 0 auto;
     position: relative;
-
-
 }
 
 .reviewsHead {
@@ -371,6 +355,8 @@ h2 {
 
 .reviewBottom {
     position: relative;
+    padding: 0 7px;
+
 }
 
 .arrowBlock {
@@ -391,11 +377,9 @@ h2 {
 }
 
 .arrow:hover {
-
     background-color: #f2f2f2;
     color: #373737;
     box-shadow: 0 0 4px #c8c8c8 ;
-
 }
 
 .message {
@@ -422,21 +406,16 @@ h2 {
     text-align: right;
 }
 
-
 .male {
     background: url("../img/male.png") no-repeat;
     height: 364px;
     width: 225px;
     margin: 0 auto;
-
 }
 
 .male:hover {
     background: url("../img/male_2.png") no-repeat;
-
 }
-
-
 
 .getStartedBox {
     width: 300px;
@@ -450,6 +429,8 @@ h2 {
     vertical-align: middle;
     position: absolute;
     bottom: 50px;
+    left: 0;
+    right: 0;
 }
 
 /*---------------------getStarted--------------------------------------*/
@@ -460,15 +441,12 @@ h2 {
     height: 240px;
     width: 100%;
     bottom: 0;
-
 }
 
 .getStartedBox:hover {
-
     background-color: #ab3f34;
     box-shadow: 0 0 8px #373737;
     transition: 0.2s;
-
 }
 
 .getStartedClick {
@@ -478,7 +456,6 @@ h2 {
     color: #fff;
     margin: 0;
     padding-bottom: 12px;
-
 }
 
 .arrowGetStarted {
@@ -490,19 +467,7 @@ h2 {
     border: 2px solid #e9e9e9;
     line-height: 39px;
     margin: 0 auto;
-
 }
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
-
 /*---------------------------------------------------------*/
 
 .footerMobile {
@@ -519,9 +484,7 @@ h2 {
     color: #ffffff;
     text-align: center;
     margin: 0;
-
 }
-
 
 .footerTablet {
     display: none;
