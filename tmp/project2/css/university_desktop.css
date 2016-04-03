@@ -9,7 +9,7 @@
     }
 
     .weAreBestContainer {
-        width: 1000px;
+        width: 998px;
 
     }
 
@@ -29,14 +29,11 @@
     .excellentTeachers {
         display: flex;
         flex-direction: column;
+        width: 290px;
     }
 
     .viewLink {
         margin: 0 auto;
-    }
-
-    .reviews_text_wrapper {
-        width: 1000px;
     }
 
     .weAreBestContainer h3 {
@@ -49,10 +46,18 @@
         margin: 0;
     }
 
-    .getStartedContainer {
+    .reviewContainer {
         width: 1000px;
+
     }
 
+    .memberReview {
+        width: 760px;
+    }
+
+    .message {
+        width: 755px;
+    }
 
 
 

@@ -10,6 +10,7 @@
         justify-content: space-between;
         padding: 0 25px;
         width: 800px;
+        box-sizing: border-box;
     }
 
     .nameUniversity {
@@ -44,6 +45,7 @@
 
     .history_text_wrapper {
         margin: 0 22px;
+        width: 445px;
     }
 
     .history {
@@ -60,9 +62,6 @@
         margin: 0;
     }
 
-    .history_text_wrapper {
-        width: 410px;
-    }
     /*------------------------------weAreBest----------*/
 
     .weAreBest {
@@ -115,58 +114,71 @@
 
     /* ------------------------------reviews ----------*/
 
-    .reviews {
-        height: 220px;
-        display: flex;
-        justify-content: center;
-        padding-top: 10px;
+    .review {
+        min-height: 444px;
     }
 
-    .reviews_text_wrapper {
-        width: 768px;
-        display: flex;
-        flex-direction: column;
+    .reviewContainer {
+        width: 800px;
+
     }
 
-    .reviewsTop,
-    .reviewsBottom {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .reviewsHead {
         text-align: left;
-        line-height: 1.3;
-        padding-bottom: 15px;
+        margin: 0;
     }
 
-    .reviewsTop h2 {
-        margin: 0;
+    .reviewTop,
+    .reviewBottom{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .memberReview {
+        width: 600px;
     }
 
         /* ------------------------------getStarted ----------*/
 
+
+    .getStarted {
+        float: left;
+        width: 1000px;
+        border: 1px solid blue;
+
+
+    }
+
     .getStartedBox {
         width: 470px;
         height: 61px;
-        margin: 0;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-    }
-
-    .getStartedBox p {
-        text-align: left;
-        line-height: 1.2;
-        width: 321px;
+        padding: 0 15px;
+        left: 0;
         margin: 0;
+        bottom: 64px;
     }
 
-    .getStarted {
-        height: 195px;
+    .getStartedClick {
+        padding-bottom: 0;
     }
 
-    .getStartedContainer {
-        width: 758px;
+    .arrowGetStarted {
+        margin: 0;
+
     }
+
+    .getStartedBackground {
+        height: 190px;
+    }
+
+
+
+
+
+    /*-------------------------------------*/
 
     .nameUniversityTablet {
         width: 135px;
@@ -181,8 +193,15 @@
     }
 
     .joinConnectsTablet {
-        padding: 5px 22px;
+         padding: 5px 25px;
+         width: 180px;
+     }
+
+    .joinConnectsTablet p{
+        margin-right: 5px;
     }
+
+
 
     footer {
         height: 39px;

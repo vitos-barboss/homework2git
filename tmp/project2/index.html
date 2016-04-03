@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>ABC University</title>
-    <meta name="viewport" content="width=device-width; initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/university_mobile.css">
     <link rel="stylesheet" href="css/university_tablet.css">
     <link rel="stylesheet" href="css/university_desktop.css">
@@ -45,7 +45,7 @@
                                 <input type="text" placeholder="First Name">
                                 <input type="text" placeholder="Last Name">
                                 <input type="text" placeholder="Phone">
-                                <input type="text" placeholder="Adress">
+                                <textarea rows="5" cols="20" placeholder="Adress"></textarea>
                                 <input type="text" placeholder="Zip">
                                 <input type="text" placeholder="Email">
                                 <input type="submit" value="Submit">
@@ -116,40 +116,39 @@
             </div>
         </div>
     </section>
-    <section class="reviews">
-        <div class="reviews_text_wrapper">
-            <div class="reviewsTop">
-                <h2>What Students Says About Our University</h2>
-                <div class="arrowWrapper">
-                    <a href="#"><div class="arrow arrowLeft arrow_active">❮</div></a>
-                    <a href="#"><div class="arrow arrowRight">❯</div></a>
-                </div>
-            </div>
-            <div class="reviewsBottom">
-                <div class="memberReview">
-                <div class="quote topQuote">“</div>
-                    <p>We guide our students to find their own academic paths by helping
-                        them to reason, analyze and understand in unprecedented ways.
-                        The undergraduate experience at Duke is characterized by a
-                        spirit of academic energy, exploration and challenge.
-                    </p>
-                    <p class="memberName">— Amanda Persch</p>
-                    <div class="quote bottomQuote">”</div>
-                </div>
-                <div class="maleWrapper">
-                    <div class="male"></div>
-                </div>
-            </div>
+    <section class="review">
+        <div class="getStartedBackground">
         </div>
-    </section>
-    <section class="getStarted">
-        <div class="getStartedContainer">
-            <div class="getStartedBox">
-                <p>Click Here Now to Get Started</p>
-                <a href="#"><div class="getStartedArrow">❯</div></a>
+            <div class="reviewContainer">
+                <div class="reviewTop">
+                    <h2 class="reviewsHead">WHAT STUDENTS SAYS ABOUT OUR UNIVERSITY</h2>
+                    <div class="arrowBlock">
+                        <div class="arrow prev">&#x276e;</div>
+                        <div class="arrow next">&#x276f;</div>
+                    </div>
+                </div>
+                <div class="reviewBottom">
+                    <div class="memberReview">
+                        <div class="quote topQuote">“</div>
+                        <p class="message">We guide our students to find their own academic paths by helping
+                            them to reason, analyze and understand in unprecedented ways.
+                            The undergraduate experience at Duke is characterized by a spirit
+                            of academic energy, exploration and challenge.
+                        </p>
+                        <div class="memberName">— AMANDA PERSCH</div>
+                        <div class="quote bottomQuote">”</div>
+                    </div>
+                    <div class="maleWrapper">
+                        <div class="male"></div>
+                    </div>
+                    <div class="getStartedBox">
+                        <p class="getStartedClick">Click Here Now to Get Started</p>
+                        <div class="arrowGetStarted">&#x276f;</div>
+                    </div>
+                </div>
             </div>
-            </div>
     </section>
+    <div class="clearfix"></div>
     <section>
         <div class="joinUs joinUsTablet">
             <div class="container joinContainerTablet">
@@ -178,5 +177,6 @@
         <p>&copy; 2014 by ABC UNIVERSITY OF LIFE. Proudly created with unbounce.com. 
             Design by Design-What.com</p>
     </footer>
+
 </body>
 </html>
